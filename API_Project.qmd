@@ -140,7 +140,6 @@ cat_checker <- function(initial_parse) {
           mutate(FER = recode(FER, "0" = "N/A (less than 15 years/greater than 50 years/ male)", "1" = "Yes", "2" = "No"))
       }
   
-
     }
 
       return(initial_parse)
